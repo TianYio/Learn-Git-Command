@@ -10,3 +10,10 @@
 | 查看远程仓库                               | git remote -v                         |
 | 删除本地与远程仓库的联系                   | git remote rm <name>                  |
 | 将本地 name1 分支提交到远程仓库 name2 分支 | git push <name> <name1>:<name2>       |
+| 创建远程分支并推到远程                     | git push <name> <branch-name>         |
+| 查看本地分支                               | git branch                            |
+| 查看远程分支                               | git branch -r                         |
+| 创建本地分支                               | git branch <branch-name>              |
+| 切换分支                                   | git checkout <branch-name>            |
+| 删除本地分支                               | git branch -d <branch-name>           |
+| 删除远程分支                               | git push origin :heads/<branch-name>  |
