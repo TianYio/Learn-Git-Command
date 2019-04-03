@@ -7,3 +7,5 @@
 | 从缓存区删除               | git rm --cache <fileName>             |
 | 从远程仓库下载代码         | git clone <远程仓库 url>              |
 | 远程仓库更新后更新本地仓库 | git pull                              |
+| 查看远程仓库               | git remote -v                         |
+| 删除远程仓库               | git remote rm <name>                  |
